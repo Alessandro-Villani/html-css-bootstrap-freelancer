@@ -61,7 +61,7 @@ section:nth-child(even){
 .bar{
     flex: 0 0 40%;
     height: 5px;
-    background-color: white;
+    background-color: currentColor;
     border-radius: 2.5px;
 }
 
