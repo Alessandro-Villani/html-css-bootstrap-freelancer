@@ -1,9 +1,9 @@
 /*! CUSTOM PROPERTIES */
 
 :root{
-    --header-color: rgb(44,62,80);
+    --header-footer-color: rgb(44,62,80);
     --main-color: rgb(26,188,156);
-    --secondary-color: rgb(58,84,109);
+    --footer-secondary-color: rgb(58,84,109);
 }
 
 /*+ DEBUG - REMOVE */
@@ -62,8 +62,20 @@ section:nth-child(even){
 
 header{
     height: 5rem;
-    background-color: var(--header-color);
+    background-color: var(--header-footer-color);
 }
 
-/*! JUMBOTRON */
+/*! FOOTER */
 
+.footer-top{
+    background-color: var(--footer-secondary-color);
+}
+
+.footer-bottom{
+    background-color: var(--header-footer-color);
+    height: 8rem;
+}
+
+footer h6{
+    line-height: 8rem;
+}
