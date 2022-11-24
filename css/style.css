@@ -20,8 +20,16 @@
     border-color: yellow;
 }
 
-.cs-height-sm{
+.cs-height-xss{
     height: 3rem;
+}
+
+.cs-height-xs{
+    height: 5rem;
+}
+
+.cs-height-sm{
+    height: 10rem;
 }
 
 .cs-height-md{
@@ -42,8 +50,12 @@ body{
     color: white;
 }
 
-section:nth-child(odd){
+section:nth-child(odd) {
     background-color: var(--main-color);
+}
+
+section:nth-child(even){
+    color: black;
 }
 
 /*! HEADER */
