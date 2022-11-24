@@ -88,7 +88,14 @@ header{
 }
 
 #jumbotron p{
-    font-size: 1.1rem;
+    font-size: calc(0.8rem + 0.5vh);
+}
+
+/*! ABOUT US SECTION */
+
+#about p{
+    font-size: calc(1rem + 0.5vh);
+    font-weight: bold;
 }
 
 /*! FOOTER */
