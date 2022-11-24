@@ -1,0 +1,57 @@
+/*! CUSTOM PROPERTIES */
+
+:root{
+    --header-color: rgb(44,62,80);
+    --main-color: rgb(26,188,156);
+    --secondary-color: rgb(58,84,109);
+}
+
+/*+ DEBUG - REMOVE */
+
+.debug{
+    border: 1px dashed black ;
+}
+
+.debug.red{
+    border-color: red;
+}
+
+.debug.yellow{
+    border-color: yellow;
+}
+
+.cs-height-sm{
+    height: 3rem;
+}
+
+.cs-height-md{
+    height: 15rem;
+}
+
+.cs-height-lg{
+    height: 20rem;
+}
+
+.cs-height-xl{
+    height: 30rem;
+}
+
+/*! GENERICS */
+
+body{
+    color: white;
+}
+
+section:nth-child(odd){
+    background-color: var(--main-color);
+}
+
+/*! HEADER */
+
+header{
+    height: 5rem;
+    background-color: var(--header-color);
+}
+
+/*! JUMBOTRON */
+
