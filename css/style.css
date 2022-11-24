@@ -4,6 +4,7 @@
     --header-footer-color: rgb(44,62,80);
     --main-color: rgb(26,188,156);
     --footer-secondary-color: rgb(58,84,109);
+    --link: rgb(29,180,152);
 }
 
 /*+ DEBUG - REMOVE */
@@ -111,4 +112,24 @@ header{
 
 footer h6{
     line-height: 8rem;
+}
+
+footer li{
+    display: inline-block;
+    margin: 0 0.2rem;
+}
+
+footer .btn{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+footer i{
+    line-height: 40px;
+}
+
+footer .col:last-child a{
+ color: var(--link);
+ text-decoration: none;
 }
