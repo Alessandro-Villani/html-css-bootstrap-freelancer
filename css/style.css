@@ -58,11 +58,37 @@ section:nth-child(even){
     color: black;
 }
 
+.bar{
+    flex: 0 0 40%;
+    height: 5px;
+    background-color: white;
+    border-radius: 2.5px;
+}
+
+.bi-star-fill{
+    font-size: 2rem;
+}
+
 /*! HEADER */
 
 header{
     height: 5rem;
     background-color: var(--header-footer-color);
+}
+
+/*! JUMBOTRON */
+
+#jumbotron img{
+    max-width: 50%;
+}
+
+#jumbotron h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#jumbotron p{
+    font-size: 1.1rem;
 }
 
 /*! FOOTER */
