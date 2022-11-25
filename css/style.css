@@ -66,6 +66,10 @@ section:nth-child(even){
     border-radius: 2.5px;
 }
 
+.cs-font-size{
+    font-size: calc(1rem + 1vw);
+}
+
 .bi-star-fill{
     font-size: 2rem;
 }
@@ -75,6 +79,10 @@ section:nth-child(even){
 header{
     height: 5rem;
     background-color: var(--header-footer-color);
+}
+
+.navbar-toggler-icon{
+    filter: invert(1);
 }
 
 /*! JUMBOTRON */
