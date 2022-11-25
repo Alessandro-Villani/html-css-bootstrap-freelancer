@@ -7,44 +7,6 @@
     --link: rgb(29,180,152);
 }
 
-/*+ DEBUG - REMOVE */
-
-.debug{
-    border: 1px dashed black ;
-}
-
-.debug.red{
-    border-color: red;
-}
-
-.debug.yellow{
-    border-color: yellow;
-}
-
-.cs-height-xss{
-    height: 3rem;
-}
-
-.cs-height-xs{
-    height: 5rem;
-}
-
-.cs-height-sm{
-    height: 10rem;
-}
-
-.cs-height-md{
-    height: 15rem;
-}
-
-.cs-height-lg{
-    height: 20rem;
-}
-
-.cs-height-xl{
-    height: 30rem;
-}
-
 /*! GENERICS */
 
 body{
@@ -70,6 +32,17 @@ section:nth-child(even){
     font-size: calc(1rem + 1vw);
 }
 
+.cs-btn-primary{
+    background-color: var(--main-color);
+    border-color: var(--main-color)
+}
+
+.btn.cs-btn-primary:hover{
+    background-color: white;
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
 .bi-star-fill{
     font-size: 2rem;
 }
@@ -79,10 +52,6 @@ section:nth-child(even){
 header{
     height: 5rem;
     background-color: var(--header-footer-color);
-}
-
-.navbar-toggler-icon{
-    filter: invert(1);
 }
 
 /*! JUMBOTRON */
@@ -107,6 +76,17 @@ header{
     font-weight: bold;
 }
 
+/*! CONTACT */
+
+#contact ::placeholder {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#contact .form-control:focus{
+    box-shadow: none;
+}
+
 /*! FOOTER */
 
 .footer-top{
@@ -122,11 +102,6 @@ footer h6{
     line-height: 8rem;
 }
 
-footer li{
-    display: inline-block;
-    margin: 0 0.2rem;
-}
-
 footer .btn{
     width: 40px;
     height: 40px;
@@ -139,5 +114,4 @@ footer i{
 
 footer .col:last-child a{
  color: var(--link);
- text-decoration: none;
 }
